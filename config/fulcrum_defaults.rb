@@ -6,5 +6,5 @@ Configuration.for('fulcrum') do
   mailer_sender ENV['MAILER_SENDER'] || 'noreply@example.com'
 
   # Disable registration pages
-  disable_registration ENV['DISABLE_REGISTRATION'] || false
+  disable_registration true
 end
